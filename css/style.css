@@ -1500,7 +1500,7 @@ form {
     }
     
     .main-header {
-        padding: 50px 25px;
+        padding: 0;
         background-size: cover;
         justify-content: space-between;
         position: sticky;
@@ -1509,7 +1509,7 @@ form {
     }
 
     .header-navigation {
-        padding: 0;
+        padding: 50px 25px;
         justify-content: space-between;
         align-items: flex-start;
         position: relative;
@@ -1534,11 +1534,12 @@ form {
     
     .menu {
         display: none;
-        width: 150%;
+        width: 100%;
         flex-direction: column;
         align-self: center;
         position: absolute;
-        top: 150%;
+        top: 100%;
+        margin: 0;
         background: rgba(17, 17, 17, 0.9);
     }
     

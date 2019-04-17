@@ -552,6 +552,7 @@ form {
 
 .services:hover h3, .services:hover .services-image {
     color: #c7b299;
+	fill: #c7b299;
 }
 
 .services:hover {
